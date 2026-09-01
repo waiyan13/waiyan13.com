@@ -2,6 +2,9 @@ public/
 dist/
 .lighthouseci/
 
+# Wrangler
+.wrangler/
+
 node_modules/
 npm-debug.log*
 

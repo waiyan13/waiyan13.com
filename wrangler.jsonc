@@ -1,0 +1,11 @@
+{
+  // Zola writes the site into public/. The Worker serves that directory.
+  // No "main" entry is necessary, because this site is static only.
+  "name": "waiyan13-com",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public",
+    // Zola generates 404.html, so serve it for an unknown path.
+    "not_found_handling": "404-page"
+  }
+}

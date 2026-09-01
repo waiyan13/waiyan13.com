@@ -5,6 +5,10 @@ dist/
 # Wrangler
 .wrangler/
 
+# Local tooling and planning state
+.claude/
+tasks/
+
 node_modules/
 npm-debug.log*
 

@@ -28,10 +28,11 @@ favicon = "/icon/favicon.png"
 theme = "toggle"              # light, dark, auto, toggle
 fancy_code = true
 dynamic_note = true           # a note that can be toggled
-repo_url = "https://github.com/waiyan13/waiyan13.com/content/"
+repo_url = "https://github.com/waiyan13/waiyan13.com/blob/main/content/"
 
 menu = [
-    { name = "/projects", url = "/projects", weight = 1 },
+    { name = "/blog", url = "/blog", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
 ]
 
 socials = [
